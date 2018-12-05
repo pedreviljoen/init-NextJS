@@ -1,7 +1,7 @@
 # init - NextJS
 
 <div align="center">
-  <img src="assets/init_logo.jpg" width="70%">
+  <img src="/static/assets/init_logo.jpg" width="70%">
 </div>
 
 # NextJS

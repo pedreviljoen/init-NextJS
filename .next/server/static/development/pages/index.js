@@ -108,27 +108,43 @@ var _jsxFileName = "/Users/pedre/Documents/Work/init/meetups/next-js-setup/pages
 
 var containerStyle = {
   display: 'flex',
+  flexDirection: 'column',
   margin: 20,
   padding: 20,
   border: '1px solid #DDD',
-  alignContent: 'center',
-  justifyContent: 'center'
+  justifyContent: 'center',
+  alignItems: 'center'
+};
+var logoStyle = {
+  display: 'flex',
+  margin: 20,
+  padding: 20,
+  width: '50%',
+  height: '50%'
 };
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: containerStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 21
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 22
     },
     __self: this
-  }, "init - NextJS"));
+  }, "init - NextJS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: '../static/assets/init_logo.jpg',
+    style: logoStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }));
 });
 
 /***/ }),

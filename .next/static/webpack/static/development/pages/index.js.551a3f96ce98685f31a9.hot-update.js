@@ -15,27 +15,45 @@ var _jsxFileName = "/Users/pedre/Documents/Work/init/meetups/next-js-setup/pages
 
 var containerStyle = {
   display: 'flex',
+  flexDirection: 'column',
   margin: 20,
   padding: 20,
   border: '1px solid #DDD',
   alignContent: 'center',
   justifyContent: 'center'
 };
+var logoStyle = {
+  display: 'flex',
+  margin: 20,
+  padding: 20,
+  alignContent: 'center',
+  justifyContent: 'center',
+  width: '70%',
+  height: '75%'
+};
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: containerStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 23
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 24
     },
     __self: this
-  }, "init - NextJS"));
+  }, "init - NextJS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: '../static/assets/init_logo.jpg',
+    style: logoStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }));
 });
     (function (Component, route) {
       if(!Component) return
@@ -60,4 +78,4 @@ var containerStyle = {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.9df83b51e2c4acbc6cd8.hot-update.js.map
+//# sourceMappingURL=index.js.551a3f96ce98685f31a9.hot-update.js.map
