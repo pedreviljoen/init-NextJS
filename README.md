@@ -1,5 +1,7 @@
 # init - NextJS
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pedreviljoen/init-NextJS.svg)](https://greenkeeper.io/)
+
 <div align="center">
   <img src="/static/assets/init_logo.jpg" width="70%">
 </div>
